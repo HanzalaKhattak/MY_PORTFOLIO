@@ -6,10 +6,10 @@
     <title>M. Hanzala Dawood</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-[#001f54] m-0 p-0">
+<body class="bg-[#001f54]  m-0 p-0">
     <!-- This is header section  -->
-    <header class="m-0 p-0 ">
-        <nav class="flex justify-between items-center p-4 mx-28 ">
+    <header class="fixed w-[100%] top-0">
+        <nav class="flex justify-between items-center p-4 mx-28">
             <section class="text-[#FEFCFB]">
                 <h1 class="text-2xl">KH<span class="text-[#1282A2]">A</span>N</h1>
             </section>
@@ -23,15 +23,16 @@
     </header>
 
     <!-- This is main Section -->
-    <main class="p-16">
-        <section class="text-[#FEFCFB] p-6  flex flex-col justify-center items-center ">
+    <main class="py-12">
+        <section class="text-[#FEFCFB] p-16  flex flex-col justify-center items-center ">
             <h1 class="font-bold text-[65px]">Adaptive Logo Design</h1>
             <h1 class="font-bold text-[65px]">for your Brand</h1>
-            <button class="text-[#FEFCFB] bg-[#1282a2] text-[17px] rounded-full px-3 top-28 mt-20 ">
+            <button class="text-[#FEFCFB] bg-[#1282a2] text-[17px] rounded-full px-4 py-1 top-28 mt-20 ">
                 Explore Works ->
             </button>
         </section>
-
+       
+        <!-- this is aboit me section -->
         <section class="h-96 w-full  mt-36 flex justify-evenly">
             <section class="w-120">
                 <div class="text-[#FEFCFB] text-[56px] leading-tight">
@@ -45,9 +46,92 @@
                 </button>
             </section>
             <section class="">
-                <img src="./images/My-Image.png" class="h-full  rounded-[15px] "  alt="My-beautiful-image">
+                <img src="./images/My-Image.png" class="h-full  rounded-[15px]"  alt="My-beautiful-image">
             </section>
         </section>
+        <!-- This is Projects Highlight section -->
+        <section class="h-40 mt-32 display flex flex-col justify-center items-center text-[#FEFCFB]">
+            <h1 class="text-[56px]">My Projects Highlight</h1>
+            <button class="bg-[#1282a2] mt-10 px-4 py-1 rounded-full">EXPLORE MORE -></button>
+        </section>
+        <!-- This is projects cards section -->
+        <section class="pt-12 gap-10 flex flex-wrap justify-evenly px-28">
+            <section class=" w-[37%]">
+                <img src="./images/Img.svg" alt="" class="">
+                <div class="mt-3">
+                    <h1 class="text-2xl text-[#FEFCFB]">Branding Logo Design</h1>
+                    <p class="text-[#FEFCFB]">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ipsam quas quisquam, esse inventore natus omnis.
+                    </p>
+                </div>
+            </section>
+            <section class="w-[37%]">
+                <img src="./images/project-img2.svg" alt="" class="">
+                <div class="mt-3">
+                    <h1 class="text-2xl text-[#FEFCFB]">Branding Logo Design</h1>
+                    <p class="text-[#FEFCFB]">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ipsam quas quisquam, esse inventore natus omnis.
+                    </p>
+                </div>
+            </section>
+            <section class="w-[37%]">
+                <img src="./images/project-img3.svg" alt="" class="">
+                <div class="mt-3">
+                    <h1 class="text-2xl text-[#FEFCFB]">Branding Logo Design</h1>
+                    <p class="text-[#FEFCFB]">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ipsam quas quisquam, esse inventore natus omnis.
+                    </p>
+                </div>
+            </section>
+            <section class="w-[37%]">
+                <img src="./images/project-img4.svg" alt="" class="" >
+                <div class="mt-3">
+                    <h1 class="text-2xl text-[#FEFCFB]">Branding Logo Design</h1>
+                    <p class="text-[#FEFCFB]">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ipsam quas quisquam, esse inventore natus omnis.
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <!-- This is Testimonial section  -->
+         <section class="pt-40 px-28 flex">
+            <div>
+                <h1 class="font-bold text-3xl text-[#FEFCFB]">Testimonial</h1> <br><br>
+                <p class="text-[#FEFCFB]">“Hanzala was fantastic to work with from start to finish. We were looking for a simple, stand-out logo and he delivered. I tried designing the logo myself thinking I wouldn’t need to pay the money for a professional graphic designer but I was very wrong. Working with Aaronn was worth every penny and was surprisingly affordable! I remember him saying simplicity is key to a successful logo and boy he was right. I can’t thank Aaronn enough for his effort and professionalism. I would recommend him to anyone looking for a design!”</p><br>
+                <h3 class="text-xl font-bold text-[#FEFCFB]">- M. Hasnain</h3>
+            </div>
+            <div>
+                <img src="./images/Double-quotation.svg" alt="" class="w-170">
+            </div>
+         </section>
     </main>
-</body>
-</html>
+    <footer class="bg-[#010F28] h-96 flex justify-center items-center flex-col">
+        <section class="flex justify-center flex-col items-center p-16">
+            <p class="text-[#FEFCFB] pb-4">
+                Get in Touch With Us
+            </p>
+            <h1 class="text-[#FEFCFB] text-4xl underline font-bold">
+                m.hanzala2022@uop.edu.pk
+            </h1>
+        </section>
+        <section class="text-[#FEFCFB] flex gap-20">
+            <section> 
+                <h1 class="text-6xl">KH<span class="text-[#1282A2]">A</span>N</h1>
+            </section>
+            <section>
+                <p>Peshawar, KPK</p>
+                <p>0300-11122233</p>
+            </section>
+            <section>
+                <p>+92-304-8967345</p>
+                <div class="flex gap-2">
+                    <img src="./images/Icons/Facebook.svg" alt="">
+                    <img src="./images/Icons/Instagram.svg" alt="">
+                    <img src="./images/Icons/Twitter.svg" alt="">
+                </div>
+            </section>
+        </section>
+    </footer>
+    </body>
+    </html> 
