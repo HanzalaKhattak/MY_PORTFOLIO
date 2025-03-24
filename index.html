@@ -6,18 +6,20 @@
     <title>M. Hanzala Dawood</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-[#001f54]  m-0 p-0">
+<body class="bg-[#001f54] m-0 p-0">
     <!-- This is header section  -->
-    <header class="fixed w-[100%] top-0">
+    <header class="fixed w-[100%] top-0 bg-[#010F28] z-50 opacity-90">
         <nav class="flex justify-between items-center p-4 mx-28">
             <section class="text-[#FEFCFB]">
                 <h1 class="text-2xl">KH<span class="text-[#1282A2]">A</span>N</h1>
             </section>
             <section class="flex gap-10 text-white">
                 <a href="#" class="hover:underline">HOME</a>
-                <a href="#" class="hover:underline">ABOUT ME</a>
-                <a href="#" class="hover:underline">MY WORKS</a>
-                <button class="px-2 py-1 bg-[#010F28] border text-[14px] rounded-full">CONTACT</button>
+                <a href="#about-me" class="hover:underline">ABOUT ME</a>
+                <a href="#my-work" class="hover:underline">MY WORKS</a>
+                <button class="px-2 py-1 bg-[#010F28] border text-[14px] rounded-full">
+                    <a href="#contact">Contact</a>
+                </button>
             </section>
         </nav>
     </header>
@@ -34,7 +36,7 @@
        
         <!-- this is aboit me section -->
         <section class="h-96 w-full  mt-36 flex justify-evenly">
-            <section class="w-120">
+            <section id="about-me" class="w-120">
                 <div class="text-[#FEFCFB] text-[56px] leading-tight">
                     <h1>Let's get know about me closer.</h1>
                 </div>
@@ -50,7 +52,7 @@
             </section>
         </section>
         <!-- This is Projects Highlight section -->
-        <section class="h-40 mt-32 display flex flex-col justify-center items-center text-[#FEFCFB]">
+        <section id="my-work" class="h-40 mt-32 display flex flex-col justify-center items-center text-[#FEFCFB]">
             <h1 class="text-[56px]">My Projects Highlight</h1>
             <button class="bg-[#1282a2] mt-10 px-4 py-1 rounded-full">EXPLORE MORE -></button>
         </section>
@@ -105,9 +107,10 @@
                 <img src="./images/Double-quotation.svg" alt="" class="w-170">
             </div>
          </section>
+         
     </main>
     <footer class="bg-[#010F28] h-96 flex justify-center items-center flex-col">
-        <section class="flex justify-center flex-col items-center p-16">
+        <section id="contact" class="flex justify-center flex-col items-center p-16">
             <p class="text-[#FEFCFB] pb-4">
                 Get in Touch With Us
             </p>
@@ -131,8 +134,9 @@
                     <img src="./images/Icons/Twitter.svg" alt="">
                 </div>
             </section>
+            <br><br>
         </section> 
-        br
+        <br><br>
         <hr class="w-[90%] text-[#FEFCFB]">
         <p class="text-[#FEFCFB] pt-4">© 2022 KHAN. All Rights Reserved.</p>
     </footer>
